@@ -1,0 +1,33 @@
+/* FONTS */
+	/* NORMAL */
+	@font-face {
+		font-family:'main';
+		src: url('assets/fonts/GoogleSansFlex_72pt-Regular.ttf');
+	}
+	@font-face {
+		font-family:'bold';
+		src: url('assets/fonts/GoogleSansFlex_9pt-Bold.ttf');
+	}
+/* ROOT */
+html {
+    /* 1 rem = 10px */
+    font-size: 62.5%; 
+}
+:root {
+	/* BACKGROUDNS */
+	--backgroundMain: #F3F3F3;
+	/* SOLID COLORS */
+	--green: #27AE60;
+	--green2: #239654;
+	/* TEXT */
+	--text1: #000000;
+	--text2: #E0E0E0;
+}
+/* GENERAL */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: var(--text1);
+	font-family:'main';
+}
