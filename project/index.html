@@ -3,11 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clock</title>
+    <title>Binary Converter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Hello, world!</h1>
+	<header>
+		<h1>Binary Converter</h1>
+	</header>
+	<main>
+		<!-- INPUT CONTAINER -->
+		<div class="container">
+			<h1>Binary Value</h1>
+			<input id="input" type="text" dir="rtl" maxlength="64">
+			<button id="convertButton">
+				<p>Convert</p>
+			</button>
+		</div>
+		<!-- OUTPUT CONTAINER -->
+		<div class="container" id="outputContainer">
+			<h1>Integer Output</h1>
+			<button id="cleanButton">
+				<p>Clean</p>
+			</button>
+		</div>
+	</main>
 <script src="scripts.js">
 </script>
 </body>
